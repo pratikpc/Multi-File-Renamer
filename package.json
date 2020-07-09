@@ -1,0 +1,31 @@
+{
+  "name": "multi-renamer",
+  "version": "1.0.0",
+  "description": "Node.JS Tool to Rename Multiple Files at the same time",
+  "main": "dist/index.js",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Pratik Chowdhury (pratikc@live.co.uk)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.19",
+    "typescript": "^3.9.6"
+  },
+  "keywords": [
+    "renamer",
+    "rename",
+    "cli"
+  ],
+  "repository":   {
+    "type": "git",
+    "url": "git://github.com/pratikpc/Multi-File-Renamer.git"
+  },
+  "dependencies": {},
+  "preferGlobal": true,
+  "publishConfig": {
+    "access": "public"
+  }
+}
